@@ -1,0 +1,14 @@
+#!/bin/bash
+
+sudo apt-get install install libexif12 libgphoto2-6 libgphoto2-port12 libltdl7
+sudo apt install libgphoto2-dev
+
+virtualenv .
+source bin/activate 
+
+pip install gphoto2
+pip install pyserial
+
+
+
+

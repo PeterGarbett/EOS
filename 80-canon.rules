@@ -1,0 +1,1 @@
+SUBSYSTEM=="usb", ATTR{idVendor}=="04a9",ATTR{idProduct}=="30eb",GROUP="camera",SYMLINK+="canon20d"

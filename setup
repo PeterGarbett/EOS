@@ -1,0 +1,6 @@
+#!/bin/bash
+
+addgroup camera
+usermod -a -G camera embed
+
+
